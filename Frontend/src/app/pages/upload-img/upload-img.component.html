@@ -1,0 +1,7 @@
+<form [formGroup]="ImdData" (submit)="UploadImage()" >
+<input type="file" accept="image/png, image/gif, image/jpeg" placeholder="Enter your image" (change)="getImage($event)" formControlName="image" name="image" />
+<button class="btn btn-primary">Submit</button>
+<p class="alert alert-danger" *ngIf="!safeOrNot">Check Your size or File extenstion ( jpg , jpeg , jfif ) are welcome </p>
+
+</form> 
+

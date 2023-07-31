@@ -1,0 +1,24 @@
+
+<section >
+
+
+    <form class="row g-3 text-center" [formGroup]="FilterName" (ngSubmit)="Search()">
+     
+        <div class="col-auto">
+          
+          <input #inp type="text" class="form-control" placeholder="Enter Name" formControlName="name" name="name">
+        </div>
+        <div class="col-auto">
+          <button type="submit" class="btn btn-primary mb-3"  (click)="Search()">Confirm identity</button>
+        </div>
+      </form>
+   
+
+        <div class="data">
+<p> Name : {{UserData.name}} </p>
+<p>Email : {{UserData.email}}</p>
+<p>Age  : {{UserData.age}}</p>
+
+        </div>
+
+</section>

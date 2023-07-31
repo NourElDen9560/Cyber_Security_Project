@@ -1,0 +1,60 @@
+
+html {
+  scroll-behavior: smooth;
+}
+:root {
+  --maincolor: rgb(255, 82, 0);
+}
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.contact{
+  padding: 4%;
+  height: 400px;
+}
+.col-md-3{
+  background: rgb(255, 82, 0);
+  padding: 4%;
+  border-top-left-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+  color: white;
+}
+.contact-info{
+  margin-top:10%;
+}
+.contact-info img{
+  margin-bottom: 15%;
+}
+.contact-info h2{
+  margin-bottom: 10%;
+}
+.col-md-9{
+  background: #fff;
+  padding: 3%;
+  border-top-right-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+}
+.contact-form label{
+  font-weight:400;
+  padding: 5px;
+}
+.contact-form button{
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 30px;
+  font-size: 11px;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: .05rem;
+  background-color: rgb(255, 82, 0);
+  color: white;
+  
+}
+.contact-form button:focus{
+  box-shadow:none;
+}
